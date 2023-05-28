@@ -15,12 +15,12 @@ VALUES ("CEO", 2),
        ("VP HR", 5),
        ("VP Legal", 3);
 
-INSERT INTO role (first_name, last_name,role_id,manager_id)
+INSERT INTO employee (first_name, last_name,role_id,manager_id)
 VALUES ("John", "Smith", 1, NULL),
        ("Mary","Jane", 2, 1),
        ("Kim","Jones", 3, 1),
        ("James","Bob", 4, 3),
        ("George","Washington", 5, 4),
        ("Thomas", "Jefferson", 6, 1),
-       ("Abraham", "Lincoln", 7, 1),
-       ("Barck","Obama" 8, 1);
+       ("Abraham", "Lincoln", 7, 1);
+    --   ("Barck","Obama" 8, 1);
